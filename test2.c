@@ -6,14 +6,16 @@ int verify_password(char *password)
     int authenticated;
     char buffer[44];
     authenticated = strcmp(password, PASSWORD);
-    strcpy(buffer, password); //over flowed here! return authenticated;
+    strcpy(buffer, password); //over flowed here! 
+    return authenticated;
 }
-void main()
+main()
 {
     int valid_flag = 0;
     char password[1024];
     FILE *fp;
-    LoadLibrary("user32.dll"); //prepare for messagebox if(!(fp=fopen("password.txt","rw+")))
+    LoadLibrary("user32.dll"); //prepare for messagebox 
+    if(!(fp=fopen("password.txt","rw+")))
     {
         exit(0);
     }
