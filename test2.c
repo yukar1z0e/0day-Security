@@ -9,7 +9,7 @@ int verify_password(char *password)
     strcpy(buffer, password); //over flowed here! 
     return authenticated;
 }
-main()
+void main()
 {
     int valid_flag = 0;
     char password[1024];
