@@ -17,7 +17,7 @@ void main()
 	char password[1024];
 	FILE * fp;
 	LoadLibrary("user32.dll"); //prepare for messagebox 
-	if (!(fp = fopen("password.txt", "r")))
+	if (!(fp = fopen("C:\\Users\\test\\Desktop\\password.txt", "rw+")))
 	{
 		exit(0);
 	}
