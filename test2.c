@@ -11,6 +11,7 @@ int verify_password(char *password)
 }
 void main()
 {
+    printf("start\n");
     int valid_flag = 0;
     char password[1024];
     FILE *fp;
