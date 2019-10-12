@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SEHOverflow - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\test\AppData\Local\Temp\RSP1793.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/SEHOverflow.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\Users\test\Desktop\Projects\SEHOverflow\SEHOverflow.c"
+]
+Creating command line "cl.exe @C:\Users\test\AppData\Local\Temp\RSP1793.tmp" 
+Creating temporary file "C:\Users\test\AppData\Local\Temp\RSP1794.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/SEHOverflow.pdb" /debug /machine:I386 /out:"Debug/SEHOverflow.exe" /pdbtype:sept 
+.\Debug\SEHOverflow.obj
+]
+Creating command line "link.exe @C:\Users\test\AppData\Local\Temp\RSP1794.tmp"
+<h3>Output Window</h3>
+Compiling...
+SEHOverflow.c
+c:\users\test\desktop\projects\sehoverflow\sehoverflow.c(5) : warning C4013: 'printf' undefined; assuming extern returning int
+c:\users\test\desktop\projects\sehoverflow\sehoverflow.c(6) : warning C4013: 'getchar' undefined; assuming extern returning int
+c:\users\test\desktop\projects\sehoverflow\sehoverflow.c(8) : warning C4716: 'MyExceptionhandler' : must return a value
+Linking...
+
+
+
+<h3>Results</h3>
+SEHOverflow.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
