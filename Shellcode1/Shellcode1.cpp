@@ -37,6 +37,14 @@ DWORD __stdcall ror13_hash(const char* string)
 	return hash;
 }
 
+PEB:PPEB __declspec(naked) get_peb(void)
+{
+	__asm {
+		mov eax, fs: [0x30]
+		ret
+	}
+}
+
 void __declspec(naked) END_SHELLCODE(void) {}
 
 int main(int argc, char* argv[])

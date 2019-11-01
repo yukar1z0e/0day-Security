@@ -1,8 +1,8 @@
 ﻿  Shellcode1.cpp
 cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
-  正在生成代码
-  0 of 6 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  已完成代码的生成
-  Shellcode1.vcxproj -> C:\Users\test\0daySecurity\Shellcode1\Release\Shellcode1.exe
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(40,4): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(40,4): error C2059: 语法错误:“:”
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(40,10): error C2144: 语法错误:“int”的前面应有“;”
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(40,35): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(41,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(46,1): warning C4508: “get_peb”: 函数应返回一个值；假定“void”返回类型
