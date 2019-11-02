@@ -1,8 +1,26 @@
 ﻿  Shellcode1.cpp
 cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
-C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(40,4): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
-C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(40,4): error C2059: 语法错误:“:”
-C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(40,10): error C2144: 语法错误:“int”的前面应有“;”
-C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(40,35): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
-C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(41,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
-C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(46,1): warning C4508: “get_peb”: 函数应返回一个值；假定“void”返回类型
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(23,18): warning C4838: 从“int”转换到“char”需要收缩转换
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(23,18): warning C4309: “初始化”: 截断常量值
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(23,24): warning C4838: 从“int”转换到“char”需要收缩转换
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(23,24): warning C4309: “初始化”: 截断常量值
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(20,9): warning C4101: “dwptr”: 未引用的局部变量
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(40,68): error C2197: “FARPROC”: 用于调用的参数太多
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(46,5): error C2197: “FARPROC”: 用于调用的参数太多
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(51,6): error C2664: “BOOL strmatch(const char *,const char *)”: 无法将参数 1 从“WCHAR [260]”转换为“const char *”
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(51,20): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(15,16): message : 参见“strmatch”的声明
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(53,68): error C2197: “FARPROC”: 用于调用的参数太多
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(55,41): error C2197: “FARPROC”: 用于调用的参数太多
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(62,15): error C2137: 空字符常量
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(62,27): error C2137: 空字符常量
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(74,12): error C2137: 空字符常量
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(74,24): error C2137: 空字符常量
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(88,89): error C2197: “FARPROC”: 用于调用的参数太多
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(92,5): error C2197: “FARPROC”: 用于调用的参数太多
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(95,68): error C2197: “FARPROC”: 用于调用的参数太多
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(120,29): error C2440: “return”: 无法从“HANDLE”转换为“HMODULE”
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(120,9): message : 从“void*”到指向非“void”的指针的强制转换要求显式类型强制转换
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(172,16): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\test\0daySecurity\Shellcode1\Shellcode1.cpp(190,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 参见“fopen”的声明
