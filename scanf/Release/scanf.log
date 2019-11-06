@@ -1,0 +1,9 @@
+﻿  scanf.cpp
+cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+C:\Users\test\0daySecurity\scanf\scanf.cpp(11,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : 参见“scanf”的声明
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  scanf.vcxproj -> C:\Users\test\0daySecurity\scanf\Release\scanf.exe
