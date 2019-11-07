@@ -1,0 +1,7 @@
+﻿  Pointer.cpp
+C:\Users\test\0daySecurity\Pointer\Pointer.cpp(15,1): warning C4326: “main”的返回类型应为“int”而非“void”
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Pointer.vcxproj -> C:\Users\test\0daySecurity\Pointer\Release\Pointer.exe
