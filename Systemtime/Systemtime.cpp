@@ -39,7 +39,7 @@ void main()
 //     9: 	WORD wHour;
 //    10: 	WORD wMinute;
 //    11: 	WORD wSecond;
-//    12: 	WORD wMilliseconds;
+//    12: 	WORD wMilliseconds;  
 //    13: } SYSTEMTIME,*PSYSTEMTIME;
 //    14: */
 //    15: 
